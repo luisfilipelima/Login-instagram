@@ -1,0 +1,132 @@
+ @font-face {
+    font-family:'insta' ;
+    src: url(fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf);
+ }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+
+body{
+    background-color: rgb(255, 251, 251);
+}
+
+.container{
+    width: 350px;
+    height: 430px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgba(0, 0, 0, 0.149);
+}
+
+.container .logo{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.container .logo h1{
+    font-family: 'insta';
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input{
+    width:  70%;
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.149);
+    background-color: #FAFAFA;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
+.container .botao{
+     display: flex; 
+     justify-content: center;
+     margin-top: 20px;
+}
+
+.container .botao button{
+    padding: 5px 50px;
+    width: 70%;
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.container .botao button:hover{
+    background-image: linear-gradient(to right , #65abd9, #3890ca );
+
+}
+
+.container .ou {
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+}
+
+.container .ou #espaco{
+    margin-top: 11px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #958E8E;
+    font-size: 13px;
+}
+
+.container .ou p{
+    color: #958E8E;
+    font-weight: 600;
+
+}
+
+.container .icon{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container .icon img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+}
+
+.container .icon p{
+    color: #385185;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.container .senha{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #385185;
+    font-size: 13px;
+}
+
+footer{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
